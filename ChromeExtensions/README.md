@@ -1,3 +1,4 @@
+#README
 I recently did a threat hunt for my internship regarding chrome extensions in our environment.
 
 The Goal for this repo is to contain some notes from my hunt and the script that I created to use for this hunt.
