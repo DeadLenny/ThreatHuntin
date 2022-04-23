@@ -21,8 +21,8 @@ load_dotenv()
 
 
 
-inputFile=" "
-outputFile=" "
+inputFile="test.csv"
+outputFile="output.csv"
 
 
 headers = {
