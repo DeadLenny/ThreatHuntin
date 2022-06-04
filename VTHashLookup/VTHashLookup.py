@@ -21,13 +21,13 @@ load_dotenv()
 
 
 
-inputFile="test.csv"
-outputFile="output.csv"
+inputFile=os.getenv("HOME")+"test.csv"
+outputFile=os.getenv("HOME")+"output.csv"
 
 
 headers = {
     "Accept": "application/json",
-    "x-apikey": os.getenv("VTI_API_KEY")
+    "x-apikey": os.getenv("api_key_vti")
 }
 
 csvheader=['MD5','SHA1','SHA256']
