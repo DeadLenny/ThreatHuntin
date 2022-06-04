@@ -42,9 +42,9 @@ with open(inputFile)as csvfile:
         HASH=""
         for char in row:
             HASH+=char
-        print(HASH)
+        #print(HASH)
         url = f"https://www.virustotal.com/api/v3/files/{HASH}"
-        print(url)
+        #print(url)
         response = requests.request("GET", url, headers=headers, verify = False)
         if response.status_code==200:
             x= json.loads(response.text)
