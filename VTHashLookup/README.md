@@ -1,5 +1,10 @@
 # Readme
 
+### Update
+I recently got feedback on this code and was made aware that I should be using json parsing instead of regex.
+
+VTHashLookup2 is the file with the json parsing but I left the original one up because it shows that regex can be used even though it is not ideal.
+
 ### Background
 
 I'm currently interning as a Threat Hunter and during one of my recents hunts I noticed there wasn't an easy way to lookup a bulk of hashes.
