@@ -14,7 +14,6 @@
 import json
 import requests
 import csv
-import re
 import os
 from dotenv import load_dotenv
 load_dotenv()
