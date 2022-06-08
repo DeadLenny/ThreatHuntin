@@ -104,11 +104,11 @@ with open(inputFile)as csvfile:
 
         #Moving to Malware Bazaar Api if virustotal has nothing        
         elif "query_status" and "ok" in Malresponse.text:
+            
             #raw Malware Bazaar reponse 
             x=json.loads(Malresponse.text)
 
             #Parsing Json response for hashes
-
             md5= (x["data"][0]["md5_hash"])
             sha1= (x["data"][0]["sha1_hash"])
             sha256= (x["data"][0]["sha256_hash"])
